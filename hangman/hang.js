@@ -23,18 +23,14 @@ function makeAlpha() {
             if(!currentWord.includes(alphaArray[i])) {
                 score++;
                 failScore.innerHTML = score;
-                hangmanImg.src = `${score}.png`;
+                hangmanImg.src = `./images/${score}.png`;
                 gameOver()
              }
               newBtn.disabled= true;
         })
        
     }
-//      if (score === 0) {
-//     hangmanImg.src = "0.png";
-//     hangmanImg.style.width = "250px";
-//     hangmanImg.style.height = "auto";
-// }
+
 }
 
 makeAlpha();
