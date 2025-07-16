@@ -63,12 +63,12 @@ function workLines() {
 workLines()
 
 function gameOver() {
-    if(Number(score) > 7) {
-        document.getElementsByClassName("lose")[0].style.visibility = "visible";
-        disableAllButtons();
-   
+   if (score <= 7) {
+  hangmanImg.src = `./images/${score}.png`;
+   } else {
+  hangmanImg.src = "./images/8.png";
+   }
 
-    }
 
    
 }

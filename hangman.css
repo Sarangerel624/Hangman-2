@@ -4,9 +4,9 @@
 }
 #hangImg {
     background-image: url(./images/hangmanBackground2.jpg);
-    background-size: cover;           /* зургийг дэлгэцийн хэмжээнд тэлнэ */
-    background-repeat: no-repeat;     /* зургийг дахин давтахгүй */
-    background-position: center;      /* зургийг дэлгэцийн төвд байрлуулна */
+    background-size: cover;           
+    background-repeat: no-repeat;     
+    background-position: center;     
     
     width: 100vw;
     height: 100vh;
@@ -71,6 +71,7 @@
 
 #img[src*="./images/start.png"] {
     width: 210px;
+      transition: all 0.3s ease-in-out;
 }
 
 #img[src*="8.png"] {
@@ -141,3 +142,8 @@
     background-color: rgb(186, 185, 185);
 }
 
+#img {
+  max-width: 210px;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+}
