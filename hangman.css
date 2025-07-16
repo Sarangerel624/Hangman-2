@@ -3,7 +3,7 @@
     padding: 0;
 }
 #hangImg {
-    background-image: url(../hangman/images/hangmanBackground2.jpg);
+    background-image: url(./images/hangmanBackground2.jpg);
     background-size: cover;           /* зургийг дэлгэцийн хэмжээнд тэлнэ */
     background-repeat: no-repeat;     /* зургийг дахин давтахгүй */
     background-position: center;      /* зургийг дэлгэцийн төвд байрлуулна */
