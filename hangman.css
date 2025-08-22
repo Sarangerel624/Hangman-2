@@ -1,89 +1,87 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 #hangImg {
-    background-image: url(./images/hangmanBackground2.jpg);
-    background-size: cover;           
-    background-repeat: no-repeat;     
-    background-position: center;     
-    
-    width: 100vw;
-    height: 100vh;
-    
+  background-image: url(./images/hangmanBackground2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 100vw;
+  height: 100vh;
 }
 
 .alphaBtn {
-    font-size: 20px;
-    border: 1px solid purple;
-    border-radius: 10px;
-    width: 40px;
-    height: 30px;
-    background-color: whitesmoke;
+  font-size: 20px;
+  border: 1px solid purple;
+  border-radius: 20px;
+  width: 60px;
+  height: 50px;
+  background-color: whitesmoke;
 }
 
-.alphaBtn:hover{
-    background-color: rgb(219, 214, 214);
-    cursor: pointer;
+.alphaBtn:hover {
+  background-color: rgba(118, 29, 118, 0.669);
+  cursor: pointer;
+  color: aliceblue;
 }
-
 
 #alphamentsParent {
-    position: absolute;
-    top: 65%;
-    left: 0;
-    transform: translateY(-5%); 
-    padding-left: 200px; 
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  transform: translateY(-5%);
+  padding-left: 210px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 #alphaments {
-    display: flex;
-    flex-wrap: wrap;
-    width: 300px;
-    gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  gap: 5px;
 }
 
 #fail {
-    font-size: 25px;
-    width: 100px;
-    height: 40px;
-    background-color: rgb(221, 198, 242);
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 10px;
+  font-size: 25px;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(221, 198, 242);
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 #failParent {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
 }
 
 #hangmanImg {
-    position: absolute;
-    left: 67%;
-    top: 25%;
+  position: absolute;
+  left: 68%;
+  top: 22%;
 }
 
-
 #img[src*="./images/start.png"] {
-    width: 210px;
-      transition: all 0.3s ease-in-out;
+  width: 210px;
+  transition: all 0.3s ease-in-out;
 }
 
 #img[src*="8.png"] {
-    width: 110px;
+  width: 130px;
 }
 
 #lines {
-    font-size: 50px;
-    position: absolute;
-    top: 50%;
-    left: 17%;
-    gap: 2px;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  gap: 2px;
 }
 
 .win {
@@ -115,31 +113,30 @@
 }
 
 #reBtn {
-    color: yellow;
-    font-size: 20px;
-    border-radius: 10px;
-    width: 200px;
-    height: 50px;
-    background-color: whitesmoke;
-    box-shadow:  5px 10px;
+  color: yellow;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: whitesmoke;
+  box-shadow: 5px 10px;
 }
-
 
 #reBtn:hover {
-     background-color: yellow;
-     color: black;
+  background-color: yellow;
+  color: black;
 }
 #restartBtn {
-    font-size: 20px;
-      border-radius: 10px;
-    width: 200px;
-    height: 50px;
-        background-color: whitesmoke;
-           box-shadow:  5px 10px;;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: whitesmoke;
+  box-shadow: 5px 10px;
 }
 
-#restartBtn:hover{
-    background-color: rgb(186, 185, 185);
+#restartBtn:hover {
+  background-color: rgb(186, 185, 185);
 }
 
 #img {

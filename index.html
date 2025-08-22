@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>hangman.com</title>
-    <link rel="stylesheet" href="./hangman.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./hangman.css" />
+  </head>
+  <body>
     <div>
-        <div class="win">
-            <h3>YOU WIN!!!</h3>
-            <button id="reBtn">RESTART</button>
-        </div>
-        <div class="lose">
-            <h3>GAME OVER</h3>
-            <button id="restartBtn">RESTART</button>
-        </div>
-        <div id="hangImg"> 
+      <div class="win">
+        <h3>YOU WIN!!!</h3>
+        <button id="reBtn">RESTART</button>
+      </div>
+      <div class="lose">
+        <h3>GAME OVER</h3>
+        <button id="restartBtn">RESTART</button>
+      </div>
+      <div id="hangImg">
         <div id="failParent">
-            <div id="fail">Fails:<span id="failScore">0</span></div>
+          <div id="fail">Fails:<span id="failScore">0</span></div>
         </div>
         <div id="alphamentsParent">
-            <div id="alphaments"></div>
+          <div id="alphaments"></div>
         </div>
         <div id="hangmanImg">
-              <img src="./images/start.png" alt="hangman zurag" id="img">
-              
+          <img src="./images/start.png" alt="hangman zurag" id="img" />
         </div>
         <div>
-            <div id="lines"> </div>
-            <div id="keyboard"></div>
+          <div id="lines"></div>
+          <div id="keyboard"></div>
         </div>
-        </div>
-       
+      </div>
     </div>
-</body>
-<script src="./hang.js"></script>
+  </body>
+  <script src="./hang.js"></script>
 </html>
